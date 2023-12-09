@@ -20,6 +20,7 @@ ALL_PKGS: Final[list[str]] = list({
 setup(
   name=NAME,
   packages=ALL_PKGS,
+  author="Alex DeLorenzo",
   install_requires=REQS,
   python_requires=PY_VERSION,
   entry_points=ENTRY_POINTS,
